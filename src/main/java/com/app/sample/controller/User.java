@@ -10,4 +10,10 @@ public class User {
 	public String userName() {
 		return "Ganesha";
 	}
+
+	@RequestMapping("/getUserNames")
+	public String userAge() {
+		return "23";
+	}
+
 }
