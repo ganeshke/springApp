@@ -15,5 +15,11 @@ public class User {
 	public String userAge() {
 		return "23";
 	}
+	@RequestMapping("/userNameLists")
+	public String[] userNames() {
+		String[] s1 = { "gani", "jagsi", "hari" };
+return s1;
+		
+	}
 
 }
